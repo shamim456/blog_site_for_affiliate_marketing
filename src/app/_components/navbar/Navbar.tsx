@@ -1,7 +1,9 @@
 'use client';
+import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import React from 'react';
+
+import menuIcon from '@/app/_assets/icon/hamburger.png';
 
 const Navbar = (): React.JSX.Element => {
   const path = usePathname();
@@ -18,6 +20,12 @@ const Navbar = (): React.JSX.Element => {
           </div>
         </div>
       </Link>
+
+      <img
+        src={menuIcon.src}
+        alt="menu icon"
+        className="w-10 h-10 cursor-pointer md:hidden"
+      />
       <div className="menu-items">
         <Link href="/" className={`menu-item ${path === '/' ? 'active' : ''}`}>
           Home
