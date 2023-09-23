@@ -1,67 +1,6 @@
 import React from 'react';
+import Blog from './(marketing)/blog/page';
 
 export default function Page(): React.JSX.Element {
-  return (
-    <div>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-      <h1>Hello, Next.js!</h1>
-    </div>
-  );
+  return <Blog />;
 }
