@@ -3,7 +3,7 @@ import React from 'react';
 const About = (): React.JSX.Element => {
   return (
     <div>
-      <p>About page check</p>
+      <p>About page</p>
     </div>
   );
 };
