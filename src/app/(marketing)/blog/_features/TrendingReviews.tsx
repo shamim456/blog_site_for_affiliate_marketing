@@ -19,7 +19,7 @@ const TrendingReviews = (): React.JSX.Element => {
           >
             ALL TRENDING REVIEWS
           </Link>
-          <div className="w-[190px] h-0.5 bg-blue-700"></div>
+          <div className="w-[192px] h-0.5 bg-blue-700"></div>
         </div>
       </div>
       <div className=" grid grid-cols-1 lg:grid-cols-2 gap-3">

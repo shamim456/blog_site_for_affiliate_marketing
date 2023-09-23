@@ -2,6 +2,7 @@ import React from 'react';
 
 import calendarIcon from '@/app/_assets/icon/calendar.png';
 import commentIcon from '@/app/_assets/icon/comment.png';
+import Link from 'next/link';
 
 interface singleBlogProps {
   image: string;
@@ -10,6 +11,7 @@ interface singleBlogProps {
   numberOfComments: number;
   publishedDate: string;
   directionRow?: boolean;
+  description?: string;
 }
 
 const SingleBlog = ({
@@ -19,6 +21,7 @@ const SingleBlog = ({
   numberOfComments,
   publishedDate,
   directionRow,
+  description,
 }: singleBlogProps): React.JSX.Element => {
   return (
     <div
@@ -64,6 +67,17 @@ const SingleBlog = ({
             )}
           </div>
         </div>
+        {(description ?? '').length > 0 ? (
+          <div className="flex flex-col gap-4">
+            <p>{description}</p>
+            <div>
+              <Link href="/blog" className="hover:text-blue-700">
+                Read More
+              </Link>
+              <div className="w-[80px] h-0.5 bg-blue-700" />
+            </div>
+          </div>
+        ) : null}
       </div>
     </div>
   );

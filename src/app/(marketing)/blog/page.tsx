@@ -3,6 +3,9 @@ import PublicLayout from '@/app/_layouts/publicLayout';
 import React from 'react';
 import Hero from './_features/Hero';
 import TrendingReviews from './_features/TrendingReviews';
+import DogCategory from './_features/DogCategory';
+import CatCategory from './_features/CatCategory';
+import LatestReviews from './_features/LatestReviews';
 
 const Blog = (): React.JSX.Element => {
   return (
@@ -12,6 +15,15 @@ const Blog = (): React.JSX.Element => {
       </div>
       <div>
         <TrendingReviews />
+      </div>
+      <div className="w-full bg-gray-100">
+        <DogCategory />
+      </div>
+      <div>
+        <CatCategory />
+      </div>
+      <div className="w-full bg-gray-100">
+        <LatestReviews />
       </div>
     </PublicLayout>
   );
