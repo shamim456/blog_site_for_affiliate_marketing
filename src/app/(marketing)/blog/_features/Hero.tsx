@@ -27,6 +27,7 @@ const Hero = (): React.JSX.Element => {
             numberOfComments={0}
             publishedDate="September 21, 2020"
             directionRow
+            isRelatedTitle
           />
         </Link>
         <Link href="/single">
@@ -37,6 +38,7 @@ const Hero = (): React.JSX.Element => {
             numberOfComments={0}
             publishedDate="September 21, 2020"
             directionRow
+            isRelatedTitle
           />
         </Link>
         <Link href="/single">
@@ -47,6 +49,7 @@ const Hero = (): React.JSX.Element => {
             numberOfComments={0}
             publishedDate="September 21, 2020"
             directionRow
+            isRelatedTitle
           />
         </Link>
       </div>

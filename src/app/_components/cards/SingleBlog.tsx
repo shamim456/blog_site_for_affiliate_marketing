@@ -12,6 +12,7 @@ interface singleBlogProps {
   publishedDate: string;
   directionRow?: boolean;
   description?: string;
+  isRelatedTitle?: boolean;
 }
 
 const SingleBlog = ({
@@ -22,6 +23,7 @@ const SingleBlog = ({
   publishedDate,
   directionRow,
   description,
+  isRelatedTitle,
 }: singleBlogProps): React.JSX.Element => {
   return (
     <div
@@ -47,7 +49,7 @@ const SingleBlog = ({
           </span>
         </div>
         <h1
-          className={`${
+          className={`${isRelatedTitle ?? false ? 'text-base' : ''} ${
             directionRow ?? false ? 'text-xl' : 'text-2xl'
           } font-bold`}
         >
