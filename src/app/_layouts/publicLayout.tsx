@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Navbar from '../_components/navbar/Navbar';
+import Footer from '../_components/footer/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,6 +20,7 @@ export default function PublicLayout({
     <section className="w-full">
       <Navbar />
       <div className={`${inter.className} w-full`}>{children}</div>
+      <Footer />
     </section>
   );
 }

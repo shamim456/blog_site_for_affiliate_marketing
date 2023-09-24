@@ -4,11 +4,12 @@ import SingleBlog from '@/app/_components/cards/SingleBlog';
 
 import banner from '@/app/_assets/banner/91374.jpg';
 import StayConnected from './StayConnected';
+import Categories from './Categories';
 
 const PopularReview = (): React.JSX.Element => {
   return (
     <div className="w-full flex flex-col lg:flex-row gap-10 justify-between">
-      <div>
+      <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-10">
           <h2 className="text-3xl lg:text-4xl font-bold lg:font-extrabold">
             Popular
@@ -42,6 +43,7 @@ const PopularReview = (): React.JSX.Element => {
           />
         </div>
         <StayConnected />
+        <Categories />
       </div>
     </div>
   );

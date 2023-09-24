@@ -6,6 +6,7 @@ import TrendingReviews from './_features/TrendingReviews';
 import DogCategory from './_features/DogCategory';
 import CatCategory from './_features/CatCategory';
 import LatestReviews from './_features/LatestReviews';
+import Subscribe from './_features/Subscribe';
 
 const Blog = (): React.JSX.Element => {
   return (
@@ -24,6 +25,9 @@ const Blog = (): React.JSX.Element => {
       </div>
       <div className="w-full bg-gray-100">
         <LatestReviews />
+      </div>
+      <div className=" py-28">
+        <Subscribe />
       </div>
     </PublicLayout>
   );
