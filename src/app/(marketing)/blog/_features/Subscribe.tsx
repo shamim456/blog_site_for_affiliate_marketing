@@ -12,7 +12,7 @@ const Subscribe = (): React.JSX.Element => {
         <form className="flex flex-col items-center lg:justify-center lg:flex-row gap-4 w-full">
           <input
             type="text"
-            className="w-4/6 px-2 rounded-md"
+            className="w-4/6 px-2 rounded-md h-10"
             placeholder="Enter your email address"
           />
           <button className="px-3 py-2 max-lg:w-1/2 bg-blue-950 font-semibold text-white rounded-lg hover:bg-white hover:text-blue-700 transition duration-300 ease-in-out">

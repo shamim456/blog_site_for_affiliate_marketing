@@ -10,11 +10,11 @@ const Footer = (): React.JSX.Element => {
     <div>
       <div className="p-10 w-full flex gap-4 flex-col lg:flex-row justify-between items-center bg-[#161C2D]">
         <div className="flex w-full lg:w-1/3 flex-col gap-1">
-          <h2 className="text-white text-2xl text-center font-bold">
+          <h2 className="text-white text-2xl max-lg:text-center font-bold">
             Helpful Links
           </h2>
           <div className="h-0.5 w-full lg:w-5/6 bg-gray-600" />
-          <div className="grid grid-cols-1 text-center lg:grid-cols-2 gap-2 text-white">
+          <div className="grid grid-cols-1 max-lg:text-center lg:grid-cols-2 gap-2 text-white">
             <Link
               href="/"
               className="hover:text-blue-700 transition duration-300 ease-in-out"
